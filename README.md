@@ -243,7 +243,7 @@ var sql = "ALTER TABLE customers ADD COLUMN id INT AUTO_INCREMENT PRIMARY KEY";
 // Add a column named 'period' to the table 'mytable'
 const sql = "ALTER TABLE mytable ADD COLUMN period varchar(40)";
 ````
-Add a column to a table
+Change name of a column
 ````javascript
 // Change the column name from 'name' to 'username'
 const sql = "ALTER TABLE users CHANGE COLUMN name username VARCHAR(255)";
